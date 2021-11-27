@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>tempo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head> 
+<body>
+    <div class="box work big" onclick="startWorkTime()">
+        <h1>work time</h1>
+        <span id="work">0h 0m 0s</span>
+    </div>
+    <div class="box left medium">
+        <h1>time left</h1>
+        <span id="left">0h 0m 0s</span>
+        <h1>until Dec 8 23:59:59</h1>
+    </div>
+    <div class="box sleep small" onclick="startSleepTime()">
+        <h1>sleep time</h1>
+        <span id="sleep">0h 0m 0s</span>
+    </div>
+    <div class="box food small" onclick="startFoodTime()">
+        <h1>food time</h1>
+        <span id="food">0h 0m 0s</span>
+    </div>
+    <div class="box free small" onclick="startFreeTime()">
+        <h1>free time</h1>
+        <span id="free">0h 0m 0s</span>
+    </div>
+</body>
+</html>

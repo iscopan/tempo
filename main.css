@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big {
+    height: 358px;
+    width: 638px;
+}
+
+.medium {
+    height: 358px;
+    width: 318px;
+}
+
+.small {
+    height: 178px;
+    width: 318px;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+span {
+    margin: auto;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 4.5vw;
+}
+
+.work {
+    color: rgb(135, 43, 255);
+}
+
+#work {
+    font-size: 9.2vw;
+}
+
+.left {
+    color: rgb(189, 0, 0);
+}
+
+.sleep {
+    color: rgb(32, 110, 255);
+}
+
+.food {
+    color: rgb(255, 180, 41);
+}
+
+.free {
+    color: rgb(66, 173, 66);
+}
